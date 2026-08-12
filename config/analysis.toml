@@ -1,0 +1,9 @@
+start_year = 2000
+end_year = 2024
+focus_country = "DEU"
+countries = ["DEU", "AUT", "BEL", "CZE", "FRA", "ITA", "NLD", "POL", "ESP", "SWE"]
+
+[indicators]
+exports_pct_gdp = "NE.EXP.GNFS.ZS"
+imports_pct_gdp = "NE.IMP.GNFS.ZS"
+gdp_growth = "NY.GDP.MKTP.KD.ZG"
