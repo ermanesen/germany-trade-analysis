@@ -1,0 +1,3 @@
+term,estimate,std_error,t_stat,p_value_small_cluster,ci_low,ci_high,observations,countries
+lag_trade_balance,-0.0550,0.0505,-1.088,0.305,-0.1693,0.0593,240,10
+lag_trade_openness,0.0308,0.0076,4.047,0.0029,0.0136,0.0480,240,10

@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "germany-trade-analysis"
+version = "1.0.0"
+description = "Germany's trade exposure and growth resilience benchmarked against major EU economies"
+requires-python = ">=3.11"
+license = "MIT"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
