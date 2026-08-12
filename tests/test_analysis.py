@@ -9,7 +9,7 @@ def test_model_uses_lagged_trade_exposure_not_accounting_tautology(project_root)
     assert len(model_data) == 240
     assert model_data["country"].nunique() == 10
     result = fit_growth_model(panel)
-    assert result.dependent.vars == ["gdp_growth"]
+    assert result.model.dependent.vars == ["gdp_growth"]
     assert set(result.params.index) >= {"lag_trade_balance", "lag_trade_openness"}
     assert not {"exports_pct_gdp", "imports_pct_gdp"}.issubset(result.params.index)
 
